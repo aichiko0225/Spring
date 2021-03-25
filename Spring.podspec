@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Meng To' => 'meng@designcode.io' }
   s.source = { :git => 'https://github.com/MengTo/Spring.git', :tag => s.version.to_s }
   s.requires_arc = true
+  s.swift_version = ['5.0', '4.0', '4.2']
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '11.0'
   s.source_files = 'Spring/*.swift'
