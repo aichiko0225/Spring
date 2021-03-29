@@ -55,15 +55,15 @@ class OptionsViewController: UIViewController {
         dampingSlider.setValue(Float(data.damping), animated: true)
         velocitySlider.setValue(Float(data.velocity), animated: true)
         scaleSlider.setValue(Float(data.scaleX), animated: true)
-        xSlider.setValue(Float(data.x), animated: true)
-        ySlider.setValue(Float(data.y), animated: true)
+        xSlider.setValue(Float(data.sp_x), animated: true)
+        ySlider.setValue(Float(data.sp_y), animated: true)
         rotateSlider.setValue(Float(data.rotate), animated: true)
                 
         dampingLabel.text = getString("Damping", value: data.damping)
         velocityLabel.text = getString("Velocity", value: data.velocity)
         scaleLabel.text = getString("Scale", value: data.scaleX)
-        xLabel.text = getString("x", value: data.x)
-        yLabel.text = getString("y", value: data.y)
+        xLabel.text = getString("x", value: data.sp_x)
+        yLabel.text = getString("y", value: data.sp_y)
         rotateLabel.text = getString("Rotate", value: data.rotate)
     }
 

@@ -32,8 +32,8 @@ import UIKit
     var damping: CGFloat { get set }
     var velocity: CGFloat { get set }
     var repeatCount: Float { get set }
-    var x: CGFloat { get set }
-    var y: CGFloat { get set }
+    var sp_x: CGFloat { get set }
+    var sp_y: CGFloat { get set }
     var scaleX: CGFloat { get set }
     var scaleY: CGFloat { get set }
     var rotate: CGFloat { get set }
@@ -89,8 +89,8 @@ public class Spring : NSObject {
     private var damping: CGFloat { set { self.view.damping = newValue } get { return self.view.damping }}
     private var velocity: CGFloat { set { self.view.velocity = newValue } get { return self.view.velocity }}
     private var repeatCount: Float { set { self.view.repeatCount = newValue } get { return self.view.repeatCount }}
-    private var x: CGFloat { set { self.view.x = newValue } get { return self.view.x }}
-    private var y: CGFloat { set { self.view.y = newValue } get { return self.view.y }}
+    private var x: CGFloat { set { self.view.sp_x = newValue } get { return self.view.sp_x }}
+    private var y: CGFloat { set { self.view.sp_y = newValue } get { return self.view.sp_y }}
     private var scaleX: CGFloat { set { self.view.scaleX = newValue } get { return self.view.scaleX }}
     private var scaleY: CGFloat { set { self.view.scaleY = newValue } get { return self.view.scaleY }}
     private var rotate: CGFloat { set { self.view.rotate = newValue } get { return self.view.rotate }}

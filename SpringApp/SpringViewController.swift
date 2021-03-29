@@ -94,8 +94,8 @@ class SpringViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         ballView.velocity = selectedVelocity
         ballView.scaleX = selectedScale
         ballView.scaleY = selectedScale
-        ballView.x = selectedX
-        ballView.y = selectedY
+        ballView.sp_x = selectedX
+        ballView.sp_y = selectedY
         ballView.rotate = selectedRotate
         
         ballView.animation = animations[selectedRow].rawValue

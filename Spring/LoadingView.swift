@@ -50,7 +50,7 @@ public extension UIView {
         static let Tag = 1000
     }
 
-    public func sp_showLoading() {
+    func sp_showLoading() {
 
         if self.viewWithTag(LoadingViewConstants.Tag) != nil {
             // If loading view is already found in current view hierachy, do nothing
@@ -68,7 +68,7 @@ public extension UIView {
         })
     }
 
-    public func sp_hideLoading() {
+    func sp_hideLoading() {
 
         if let loadingXibView = self.viewWithTag(LoadingViewConstants.Tag) {
             loadingXibView.alpha = 1

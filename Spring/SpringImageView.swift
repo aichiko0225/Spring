@@ -32,8 +32,8 @@ open class SpringImageView: UIImageView, Springable {
     @IBInspectable public var damping: CGFloat = 0.7
     @IBInspectable public var velocity: CGFloat = 0.7
     @IBInspectable public var repeatCount: Float = 1
-    @IBInspectable public var x: CGFloat = 0
-    @IBInspectable public var y: CGFloat = 0
+    @IBInspectable public var sp_x: CGFloat = 0
+    @IBInspectable public var sp_y: CGFloat = 0
     @IBInspectable public var scaleX: CGFloat = 1
     @IBInspectable public var scaleY: CGFloat = 1
     @IBInspectable public var rotate: CGFloat = 0
